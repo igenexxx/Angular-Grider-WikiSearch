@@ -1,0 +1,11 @@
+<div class="box">
+  <form (submit)="onSubmit($event)">
+    <input
+      type="text"
+      class="input"
+      placeholder="Enter search term"
+      (input)="term = $event.target.value"
+    >
+  </form>
+</div>
+
